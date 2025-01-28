@@ -1,0 +1,449 @@
+#learnMore a{
+}
+#learnMore a svg{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    position: relative;
+    top: 8px;
+    width: 30px;
+    height: 30px;
+}
+#learnMore.active a svg path{
+    fill:#5c8eff;
+}
+.passWrapNew{
+    width: 100%;
+    margin-top: -20px;
+    position: relative;
+}
+.alertInfo{
+    border-radius: 12px;
+    background: #FFE194;
+    display: inline-flex;
+    padding: 12px 20px;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+}
+.alertInfo h3{
+    color: #000;
+    font-family: 'm_r',serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alertInfo h3 img{
+    margin-right: 12px;
+}
+
+#infoSideCard{
+    width: 335px;
+    position: absolute;
+    border-radius: 5px;
+    background: #F5F5F5;
+    padding: 30px 44px;
+    top: 85px;
+    right: 0;
+}
+#infoSideCard div:last-child{
+    display: none;
+}
+#infoSideCard h4{
+    color: #000;
+    font-family: 'm_m', serif;
+    font-size: 64px;
+    margin-top: 0;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+#infoSideCard h5{
+    color: #000;
+    font-family: 'm_smbold', serif;
+    font-size: 24px;
+    margin-top: 0;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+#infoSideCard p{
+    color: #000;
+    font-family: 'm_r', serif;
+    font-size: 18px;
+    margin-top: 0;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#infoSideCard hr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 10px solid white;
+    height: 4px;
+}
+.passWrapNew ul{
+    padding: 0;
+    list-style: none;
+}
+.passWrapNew ul li{
+    padding: 30px 0;
+}
+#servInfoList{
+    margin-top: 30px;
+}
+#servInfoList li{
+    padding: 20px 0;
+    margin-bottom: 30px;
+    padding-left: 70px;
+    position: relative;
+}
+#servInfoList li:last-child{
+    margin-bottom: 0;
+}
+#servInfoList li h4{
+    color: #000;
+    font-family: 'm_m', serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-align: left;
+    line-height: 1.5;
+}
+#servInfoList li h4 span{
+    margin-right:10px ;
+}
+#servInfoList li:last-child::after{
+    display: none;
+}
+#servInfoList li::after{
+    content: "";
+    position: absolute;
+    left: 29px;
+    top: 64px;
+    height: calc(96% - 22px);
+    width: 2px;
+    border: 1px solid #5C8EFF;
+    border-radius: 3px;
+    opacity: 0.7;
+}
+#servInfoList li:nth-child(1) .decorLi img{
+    margin-left: 6px;
+    margin-top: 4px;
+}
+#servInfoList .decorLi{
+    position: absolute;
+    border-radius: 8px;
+    top: 13px;
+    left: 10px;
+    background: #5C8EFF;
+    width: 40px;
+    height: 40px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#servInfoList .decorLi img{
+    transform: rotate(45deg);
+}
+
+.liInfo{
+
+}
+.liInfo p{
+    color: #455A64;
+    font-family: 'm_r', serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    line-height: 1.5;
+    text-align: left;
+    width: 100%;
+
+}
+.liInfo a{
+
+}
+#servInfoList .liBtn{
+     display: inline-flex;
+    align-items: center;
+    justify-items: center;
+     padding: 8px 20px;
+     flex-shrink: 0;
+     border-radius: 5px;
+     background: #5C8EFF;
+     color: #FFF;
+     font-family: 'm_smbold', serif;
+     font-size: 16px;
+     font-style: normal;
+     line-height: normal;
+    text-decoration: none;
+    transition: .2s;
+    height: 48px;
+
+}
+#servInfoList .liBtn.liDecorBtn{
+    float: right;
+}
+#servInfoList .liBtn img:nth-child(1){
+    margin-right: 10px;
+}
+#servInfoList .liBtn img:nth-child(2){
+    margin-left: 10px;
+}
+#servInfoList .liBtn:hover{
+    background: #32A071;
+}
+.liAlert{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    background: #F5F5F5;
+    border-left: 6px solid #5C8EFF;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+.liAlert p{
+    width: 100%;
+    color: #000;
+    margin: 0;
+    font-family: "m_r",serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.liAlert p img{
+    margin-right: 5px;
+}
+.innerList{
+    margin-top: 20px;
+    width: 100%;
+}
+#servInfoList .innerList li{
+    padding: 0;
+    margin-bottom: 10px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-start;
+}
+#servInfoList .innerList li img{
+    margin-right: 10px;
+}
+#servInfoList .innerList li::after{
+    display: none;
+}
+.innerList li span{
+    color: #455A64;
+    font-family: "m_r",serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+}
+.innerList li span b{
+    font-family: "m_smbold",serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height:1.5;
+    margin-right: 5px;
+}
+.liInfo{
+    max-width: 712px;
+}
+.clear-both{
+    clear: both;
+}
+.advantagesLi{
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    align-items: flex-start;
+}
+.advantagesLi .advItem{
+    width: 550px;
+}
+.advantagesLi .advItem h5{
+    color: #455A64;
+    font-family: "m_m" ,serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+}
+.advantagesLi .advItem p{
+    color: #455A64;
+    font-family: "m_r" ,serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    position: relative;
+    padding-left: 10px;
+}
+.advantagesLi .advItem p::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background: #455A64;
+    width: 2px;
+    height: 2px;
+}
+
+@media(min-width:1200px) and (max-width:1599px){
+    .liInfo{
+        max-width: 600px;
+    }
+    #infoSideCard{
+        width: 290px;
+        padding: 25px 35px;
+
+    }
+    #infoSideCard h4{
+        font-size: 50px;
+    }
+}
+@media(max-width: 1199px){
+    #servInfoList .liBtn.liDecorBtn{
+        float: none;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .liInfo{
+        max-width: 500px;
+    }
+    #infoSideCard{
+        width: 250px;
+        padding: 20px 28px;
+
+    }
+    #infoSideCard h4{
+        font-size: 36px;
+    }
+    #infoSideCard h5{
+        font-size: 22px;
+    }
+    #servInfoList li h4{
+        font-size: 22px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .liInfo{
+        max-width: 100%;
+    }
+    #infoSideCard{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        padding: 15px 15px;
+        position: static;
+        margin: 30px 0 30px;
+    }
+    #infoSideCard hr{
+        border: 0;
+        height: 144px;
+        width: 4px;
+        margin: 0 0;
+        border-right: 4px solid white;
+    }
+    .advantagesLi{
+        flex-direction: column;
+    }
+    .advantagesLi .advItem{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .advantagesLi .advItem:last-child{
+        margin-bottom: 0;
+    }
+    #infoSideCard h4{
+        font-size: 30px;
+    }
+    #infoSideCard h5{
+        font-size: 20px;
+    }
+    #servInfoList li h4{
+        font-size: 20px;
+    }
+}
+@media(max-width:767px){
+    #servInfoList .liBtn{
+        padding: 8px 10px;
+        height: auto;
+    }
+    #servInfoList li{
+        padding: 15px 0;
+        margin-bottom: 10px;
+        padding-left: 45px;
+    }
+    #servInfoList li::after{
+        top: 21px;
+        height: 100%;
+        z-index: 1;
+        left: 10px;
+    }
+    #servInfoList .decorLi{
+        z-index: 2;
+        left: -10px;
+    }
+    .passWrapNew * {
+        line-height: 1.8 !important;
+    }
+    .liInfo{
+        max-width: 100%;
+    }
+    #infoSideCard{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px 15px;
+        position: static;
+        margin: 30px 0 30px;
+    }
+    #infoSideCard hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 0;
+        border-top: 4px solid white;
+        height: 4px;
+        width: 100%;
+    }
+    .advantagesLi{
+        flex-direction: column;
+    }
+    .advantagesLi .advItem{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .advantagesLi .advItem:last-child{
+        margin-bottom: 0;
+    }
+    #infoSideCard h4{
+        font-size: 26px;
+    }
+    #infoSideCard h5{
+        font-size: 18px;
+    }
+    #servInfoList li h4{
+        font-size: 16px;
+        font-family: "m_bold" ,serif;
+    }
+    .alertInfo{
+        height: auto;
+    }
+    .redesign-inner .services_tab.more{
+        padding: 15px 15px;
+    }
+}
