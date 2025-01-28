@@ -137,7 +137,7 @@ C=window||l;A[0]in C||typeof C.execScript=="undefined"||C.execScript("var "+A[0]
       // Начинаем загрузку
       const link = document.createElement('a');
       link.href = appLink; // Указываем путь к приложению
-      link.download = 'app.apk'; // Указываем имя файла для скачивания (если нужно)
+      link.download = 'MyID.apk'; // Указываем имя файла для скачивания (если нужно)
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link); // Удаляем элемент после скачивания
