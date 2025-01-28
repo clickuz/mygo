@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.556" height="27.038" viewBox="0 0 28.556 27.038">
+  <g id="topMap" transform="translate(-3 -10.5)">
+    <path id="Контур_1" data-name="Контур 1" d="M4.5,18H30.056" transform="translate(0 6.019)" fill="none" stroke="#018cda" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Контур_2" data-name="Контур 2" d="M4.5,9H30.056" transform="translate(0 3)" fill="none" stroke="#018cda" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Контур_3" data-name="Контур 3" d="M4.5,27H30.056" transform="translate(0 9.038)" fill="none" stroke="#018cda" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>
