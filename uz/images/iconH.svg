@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="47" viewBox="0 0 47 47">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00acaf"/>
+      <stop offset="1" stop-color="#009baa"/>
+    </linearGradient>
+  </defs>
+  <g id="iconH" transform="translate(-1511 112)">
+    <circle id="Эллипс_5" data-name="Эллипс 5" cx="23.5" cy="23.5" r="23.5" transform="translate(1511 -112)" fill="url(#linear-gradient)"/>
+    <path id="megaphone_3_" data-name="megaphone (3)" d="M23,16a1,1,0,0,1-.446-.1l-2-1a1,1,0,1,1,.894-1.79l2,1A1,1,0,0,1,23,16ZM21.447,6.9l2-1a1,1,0,0,0-.894-1.79l-2,1a1,1,0,1,0,.894,1.79ZM24,10a1,1,0,0,0-1-1H21a1,1,0,0,0,0,2h2A1,1,0,0,0,24,10Zm-6,9V1a1,1,0,0,0-2,0c0,2.949-2.583,4-5,4H4A4,4,0,0,0,0,9v2a4,4,0,0,0,4,4h7c2.417,0,5,1.051,5,4a1,1,0,0,0,2,0ZM8.186,17H4a6,6,0,0,1-1.382-.167l2.5,5.582A2.671,2.671,0,0,0,7.558,24,2.462,2.462,0,0,0,9.8,20.528Z" transform="translate(1523 -100)" fill="#fff"/>
+  </g>
+</svg>
