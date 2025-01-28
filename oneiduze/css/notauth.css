@@ -1,0 +1,104 @@
+.helper-btns > ul > li > a {
+    color: #4B4B4B;
+    font-size: 14px;
+    padding: 0 0 8px 0;
+    border-bottom: 1px solid transparent;
+    min-width: 45px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.helper-btns a {
+    padding-bottom: 0;
+}
+.helper-btns > ul > li > a span {
+    display: inline-block;
+    max-width: 130px;
+}
+.helper-btns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.call-center{
+    margin-top: -7px;
+}
+.menu.pull-left{
+    width:auto;
+    float: right !important;
+}
+
+.new-design-inner .header .right-side{
+    width: auto;
+}
+.helper-btns ul:nth-child(1){
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.noauthHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 0;
+}
+.noauthHead li{
+    margin-right: 20px;
+}
+.noauthHead li a span:hover{
+    text-decoration: underline;
+}
+.noauthHead li:last-child{
+    margin-right: 0;
+}
+.redesign-inner .logo-img{
+
+}
+.wrapper.simpleWrap .header .logo-img {
+    padding-top: 12px;
+}
+.wrapper.simpleWrap .header{
+    padding: 14px 0 14px;
+}
+
+.call-center div p img {
+    margin-right: 6px;
+    margin-left: -14px;
+}
+.call-center div p {
+    font-size: 9px;
+    font-family: "m_bold", serif;
+    margin-top: 5px;
+    position: relative;
+    margin-bottom: 0;
+    text-align: center !important;
+}
+.call-center div p::before {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    content: "";
+    width: 27px;
+    height: 2px;
+    background: #C1C1C1;
+    border-radius: 6px;
+}
+.call-center div p::after {
+    position: absolute;
+    top: 40%;
+    right: 24px;
+    content: "";
+    width: 27px;
+    height: 2px;
+    background: #C1C1C1;
+    border-radius: 6px;
+}
+.user_bar_btns{
+    padding: 0;
+}
