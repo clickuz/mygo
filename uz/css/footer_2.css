@@ -1,0 +1,221 @@
+#Uzinfocom{
+    width: 185px;
+}
+@font-face {
+    font-family: ibm;
+    src: url("../_.html");
+}
+#egovLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+#egovLink span{
+    color: white !important;
+    font-size:18px;
+    font-family: "ibm" ,serif;
+    line-height: 1;
+    width: 145px;
+    text-align: left;
+    margin-left: 10px;
+}
+#egovLink img{
+    width: 65px;
+    margin: 0 !important;
+}
+.footerLogos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.service_button.gray.marget img {
+    filter: invert(50%);
+    -webkit-filter:invert(50%);
+}
+
+.simpleTitle {
+    line-height: 25px;
+    font-size: 18px;
+    font-family: Montserrat !important;
+}
+
+.minutTitle {
+    margin-top: -2px;
+}
+
+.rates_count {
+    /*margin-top: -25px;*/
+}
+
+.clockVal {
+    color: #388fff;
+    font-size: 36px;
+    /*margin-top: -5px;*/
+}
+
+.timing_stat {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.12);
+    background-image: url("../images/clock_1.svg");
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+}
+
+@media (min-width: 320px) {
+    .timing_stat {
+        background-position: 180px 115px;
+    }
+}
+
+@media (min-width: 481px) {
+    .timing_stat {
+        background-position: 285px 90px;
+        min-height: 260px;
+    }
+}
+
+@media (min-width: 641px) {
+    .timing_stat {
+        background-position: 370px 70px;
+        min-height: 260px;
+    }
+}
+
+@media (min-width: 961px) {
+    .timing_stat {
+        background-position: 370px 65px;
+        min-height: 260px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .timing_stat {
+        /*background-position: 300px 36px;*/
+        min-height: 400px;
+    }
+}
+
+@media (min-width: 1281px) {
+    .timing_stat {
+        background-position: 280px 36px;
+        min-height: 260px;
+    }
+}
+@media(max-width: 580px){
+    .footerLogos{
+        flex-direction: column;
+    }
+    .footerLogos a:nth-child(1){
+        margin: 15px;
+    }
+}
+.timing_stat_title {
+    color: #5C8EFF;
+    font-size: 17px;
+    /*text-align: center;*/
+    font-weight: 900;
+    text-align: left;
+    font-family: "SegoeUI-SemiBold";
+}
+
+.rating_stat {
+    width: 100%;
+    min-height: 110px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+.rating_stat_title {
+    color: #585858;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -10px;
+    font-family: "Montserrat";
+}
+
+.rating_stat_rates_count {
+    color: #585858;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -20px;
+    letter-spacing: 0.05em;
+}
+
+#avg-minutes-chartContainer {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    margin-top: 4px;
+    font-family: Montserrat !important;
+}
+
+.ratings {
+    list-style-type: none;
+    margin-top: -16px;
+    direction: rtl;
+    position: relative;
+    left: -5px;
+    text-align: center;
+}
+.service_passport ul {
+    margin-left: 0;
+}
+.star {
+    position: relative;
+    line-height: 60px;
+    display: inline-block;
+    transition: color 0.2s ease;
+    color: transparent;
+    background-image: url("../images/uncolored-star.png");
+    background-position: 0 15px;
+    background-repeat: no-repeat;
+    letter-spacing: 4px;
+}
+
+.star:before {
+    content: '\2605';
+    width: 30px;
+    height: 30px;
+    font-size: 35px;
+}
+
+.star.selected,
+.star:hover ~ .star,
+.star.selected ~ .star {
+    transition: color 0.8s ease;
+    color: #5C8EFF;
+    background-image: url("../images/colored-star.png");
+    background-position: 0 15px;
+    background-repeat: no-repeat;
+}
+
+#avg-minutes-chartContainer g text tspan {
+    font-weight: bolder !important;
+    font-size: 45px !important;
+}
+
+.passport-info .panel-body .mygov-cost{
+    list-style: none;
+}
+
+.passport-info .panel-body  .list_organisations_links li{
+    list-style: none;
+}
+
+.passport-cost li:not(.mygov-cost){
+    list-style: none !important;
+    margin-bottom: 0 !important;
+}
+.passport-cost li:not(.mygov-cost) p{
+    font-weight: bold;
+}

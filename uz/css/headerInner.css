@@ -1,0 +1,29 @@
+.logo-img{
+    padding-top: 38px;
+}
+#topMap img{
+    width: 22px;
+    height: 22px;
+}
+.logoImg{
+    width: 146px;
+}
+.new-design .logo-img{
+    width: auto;
+}
+.header .logo-img {
+    display: flex;
+    align-items: center;
+    max-width: 232px;
+}
+#topMap{
+    cursor: pointer;
+    margin-right:40px;
+}
+.new-design-inner .notificationDropBtn{
+    background: rgb(0,82,204);
+    background: linear-gradient(47deg, rgba(0,82,204,1) 0%, rgba(90,211,158,1) 100%);
+    font-size: 9px;
+    height: 35px;
+    margin-top: 3px;
+}

@@ -1,0 +1,115 @@
+.blackAndWhite {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.noImage img {
+    display: none !important;
+}
+
+.noImage .spheresList li span {
+    background-image: none !important;
+}
+
+.blackAndWhiteInvert,
+.blackAndWhiteInvert img,
+.blackAndWhiteInvert embed,
+.blackAndWhiteInvert video {
+    -webkit-filter: grayscale(100%) invert(100%);
+    -moz-filter: grayscale(100%) invert(100%);
+    -ms-filter: grayscale(100%) invert(100%);
+    -o-filter: grayscale(100%) invert(100%);
+    filter: grayscale(100%) invert(100%);
+}
+
+.blackAndWhiteInvert body {
+    background: #000;
+}
+
+.specialViewArea {
+    padding: 10px 20px;
+    width: 265px;
+    margin: 15px -18px 0 0;
+}
+
+.specialViewArea:before {
+    right: 15px;
+}
+
+.appearance {
+    margin-bottom: 10px;
+    clear: both;
+    display: table;
+    width: 100%;
+}
+
+.squareBox {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 27px;
+    font-weight: bolder;
+    cursor: pointer;
+    background: #828282;
+    border: 2px solid #353535;
+    color: #fff;
+}
+
+.specialTitle {
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.squareAppearances {
+    float: left;
+    margin-right: 5px;
+}
+
+.squareBox.spcNormal {
+    background: #00a2e0;
+    border-color: #034e6b;
+}
+
+.squareBox.spcWhiteAndBlack {
+    background: #828282;
+    border-color: #353535;
+}
+
+.squareBox.spcDark {
+    background: #3e3e3e;
+    border-color: #777777;
+}
+
+.defaultSlider {
+    height: 4px;
+    background: #b7b7b7;
+    margin-top: 20px;
+    border: none;
+}
+
+.defaultSlider span {
+    width: 25px !important;
+    height: 25px !important;
+    top: -11px !important;
+    border-radius: 50%;
+    outline: none;
+    background: #fff !important;
+    box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -o-box-shadow: 0 0 5px #ccc;
+    cursor: pointer !important;
+}
+
+.defaultSlider span:focus, .defaultSlider span:hover {
+    border-color: #d3d3d3;
+}
+
+.defaultSlider .ui-slider-range {
+    background: #018edc;
+}
