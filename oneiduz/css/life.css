@@ -1,0 +1,10 @@
+.counter_www a img{
+    height: 0;
+    width: 0;
+    border: 0;
+}
+@media(max-width: 767px){
+    #w10-tab1 .owl-item:nth-child(1) .sphere-list li:nth-child(1) a .left-part img{
+        filter: none;
+    }
+}

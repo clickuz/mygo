@@ -1,0 +1,611 @@
+.miniBannerBar {
+    /*background: url('../../img/bg-search.png') no-repeat;*/
+    background: rgb(0,82,204);
+    background: linear-gradient(47deg, rgba(0,82,204,1) 0%, rgba(90,211,158,1) 100%);
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    border-radius:25px;
+    margin:  50px auto 20px;
+}
+.miniBannerBar + .container .col-md-7{
+    padding-left: 0;
+}
+.miniBannerBar + .container .col-md-5{
+    padding-right: 0;
+}
+.menu-carousel .owl-item li a .serviceCatIcon{
+    display: block;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    margin-right: 18px;
+}
+.menu-carousel .owl-item li.active a{
+    background: #3E9BE5;
+    text-decoration: none !important;
+}
+
+.menu-carousel .owl-item li a{
+    color: #ffffff;
+    padding: 20px 10px;
+    border-radius: 25px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+.menu-carousel .owl-item li a:hover{
+    text-decoration: underline;
+}
+.menu-carousel .owl-item li{
+    list-style: none;
+    text-align: center;
+}
+.menu-carousel .owl-stage-outer{
+    position: relative;
+    z-index: 999;
+}
+.owl-carousel{
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 0 0 0 0;
+}
+.menu-carousel .owl-item img{
+    filter: brightness(0) invert(1);
+    width: 39px !important;
+    height: 30px !important;
+    margin: 2px auto 10px;
+}
+.menu-carousel .owl-nav .owl-prev{
+    display: inline-block;
+    position: absolute;
+    right: calc(100% - 45px);
+    font-size: 50px !important;
+    top: 55%;
+    margin: -30px 0 0 0;
+    width: 39px;
+    height: 39px;
+    background-color: #297CF1 !important;
+    border-radius: 14px;
+    outline: none;
+
+}
+.menu-carousel .owl-nav .owl-prev::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-44%, -50%);
+    width: 15px;
+    height: 15px;
+    background: url('../images/owl_left.svg') no-repeat !important;
+    background-size: contain !important;
+}
+.menu-carousel .owl-stage{
+    display: flex;
+    align-items: center;
+}
+.menu-carousel .owl-nav button span{
+    display: none;
+}
+.menu-carousel .owl-nav .owl-next{
+    display: inline-block;
+    position: absolute;
+    left: calc(100% - 45px);
+    color: #ffffff !important;
+    font-size: 50px !important;
+    width: 39px;
+    height: 39px;
+    top: 55%;
+    margin: -30px 0 0 0;
+    background-color:#78EFC8 !important;
+    border-radius: 14px;
+    outline: none;
+}
+.menu-carousel .owl-nav .owl-next::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-43%, -50%);
+    width: 15px;
+    height: 15px;
+    background: url('../images/owl_right.svg') no-repeat !important;
+    background-size: contain !important;
+}
+.menu-carousel .owl-nav{
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.listCard img{
+    width: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin: -10px 0 0 0;
+    filter: invert(74%) sepia(0%) saturate(1%) hue-rotate(195deg) brightness(97%) contrast(85%);
+}
+.listCard{
+    display: inline-block;
+    padding: 0 0 0 30px;
+    position: relative;
+    margin: 0 0 25px 0;
+    color: #333333 !important;
+    font-size: 16px;
+    font-family: "Montserrat-Bold";
+}
+.listCardEmpty li{
+    list-style: none;
+    display: block;
+}
+.listCardEmpty{
+    margin: 10px 0 0 0;
+    padding: 0 0 40px 0;
+}
+.listCardEmptyFaq a{
+    color: #333333 !important;
+}
+.listCardEmptyFaq{
+    margin: 0 0 0 0;
+    padding: 0 0 40px 0;
+}
+.bg_box {
+    padding: 0 15px 0 15px;
+    background: #ffffff;
+    border: 1px solid #D8D8D8;
+    border-radius: 7px;
+    margin: 20px 0 15px 0;
+}
+.category_name {
+    font-size: 22px;
+    font-family: "Montserrat-Bold";
+    color: #0084CB;
+    padding: 20px 15px 5px 25px;
+}
+.panel_btn img {
+    filter: invert(38%) sepia(97%) saturate(1856%) hue-rotate( 181deg ) brightness(96%) contrast(92%);
+    transition: all 0.3s ease;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.panel_btn {
+    position: relative;
+    font-family: "Montserrat-Bold";
+    font-size: 16px;
+    color: #000000 !important;
+    padding: 0 0 0 50px;
+    display: inline-block;
+}
+.bg_box .panel-group {
+    padding: 10px 20px 0 20px;
+}
+.bg_box .panel {
+    border: none !important;
+    box-shadow: none !important;
+    margin: 0 0 35px 0;
+}
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+.panel_btn:hover {
+    text-decoration: none;
+}
+.btn_all_faq{
+    display: inline-block;
+    margin: 5px 0 15px 25px;
+}
+.panel_btn.collapsed img {
+    filter: none;
+}
+/***************card********************/
+.serviceCardHolder {
+    width: 50% !important;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.listCardEmpty.fourLvlElements .serviceCardHolder{
+    padding: 0;
+    width: auto !important;
+}
+.listCardEmpty.fourLvlElements a{
+    margin-bottom: 0;
+}
+.listCardEmpty.fourLvlElements{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px 20px;
+}
+.miniBannerBar + .container .col-md-12{
+    padding: 0;
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .listCardEmpty.fourLvlElements{
+        grid-template-columns: 1fr 1fr;
+        gap: 15px 15px;
+    }
+}
+@media(max-width:767px){
+    .listCardEmpty.fourLvlElements{
+        grid-template-columns: 1fr 1fr;
+        gap: 15px 15px;
+    }
+    .miniBannerBar + .container .col-md-7{
+        padding: 0 15px;
+    }
+    .miniBannerBar + .container .col-md-5{
+        padding: 0 15px;
+    }
+    .miniBannerBar{
+        margin: 0;
+        border-radius: 0;
+    }
+    .owl-carousel{
+        padding: 0 50px;
+    }
+    .menu-carousel .owl-item li.active a{
+        background: transparent;
+    }
+    .miniBannerBar + .container .col-md-12{
+        padding: 0 15px;
+    }
+}
+@media(max-width:576px){
+    .listCardEmpty{
+        padding-bottom: 20px;
+    }
+    .listCardEmptyFaq .category_name{
+        font-size: 18px;
+    }
+    .footer-img{
+        flex-direction: column;
+    }
+    #egovLink{
+        margin: 0 auto 20px !important;
+    }
+    .mobileBtns a{
+        margin:0 auto 20px !important;
+        display: inline-block;
+    }
+    .miniBannerBar + .container .col-md-12{
+        padding: 0 15px;
+    }
+    .listCardEmpty.fourLvlElements{
+        grid-template-columns: 1fr ;
+        gap: 15px 15px;
+    }
+    .serviceCardHolder{
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .bg_box .panel-group{
+        padding: 10px 0 0 ;
+    }
+    .row.grid-view.search_grid{
+        margin: 0 auto;
+    }
+    .panel_btn{
+        padding: 0;
+    }
+    .panel_btn img{
+        display: none;
+    }
+    .listCardEmptyFaq .panel-heading h4{
+        text-align: left !important;
+    }
+    .listCardEmptyFaq .panel-heading{
+        padding: 0;
+    }
+    .listCardEmptyFaq .category_name{
+        padding: 15px 0 5px;
+        text-align: left;
+    }
+    .listCardEmptyFaq .btn_all_faq{
+        margin-left: 0;
+    }
+    h2{
+        font-size: 24px;
+    }
+    .container.filterContainer{
+        display: none;
+    }
+}
+
+
+
+/* popular services */
+.new-design .services-list .tab-content ul li a .circle img{
+    filter: brightness(0) invert(1);
+    max-width: 30px;
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+}
+/* popular service */
+
+
+/* Life Widget Ochirsela ozila togirlisla */
+.service-moments.quadBlock .service-moments-list.four-tab li{
+    width: calc(100% / 4);
+}
+.foreignerWidget .sphere-list li:nth-child(1)  img{
+    filter: invert(48%) sepia(100%) saturate(1003%) hue-rotate(166deg) brightness(94%) contrast(96%);
+}
+.foreignerWidget .sphere-list li:nth-child(2) img{
+    filter: invert(49%) sepia(69%) saturate(564%) hue-rotate(60deg) brightness(93%) contrast(90%);
+}
+.foreignerWidget .sphere-list li:nth-child(3)  img{
+    filter: invert(80%) sepia(77%) saturate(2063%) hue-rotate(157deg) brightness(90%) contrast(101%);
+}
+.foreignerWidget .sphere-list li:nth-child(4) img{
+    filter: invert(43%) sepia(120%) saturate(620%) hue-rotate(60deg) brightness(66%) contrast(17%);
+}
+.foreignerWidget .sphere-list li:nth-child(5) img{
+    filter: invert(61%) sepia(56%) saturate(1053%) hue-rotate(211deg) brightness(94%) contrast(96%);
+}
+.foreignerWidget .organisations_link{
+    padding: 20px 5px !important;
+}
+.brand{
+    margin: 50px auto;
+}
+.m_show {
+    display: none  !important;
+}
+@media(max-width: 767px){
+    .m_hide{
+        display: none !important;
+    }
+    .m_show {
+        display: block !important;
+        width: 300px;
+        margin: 0 auto;
+        border-radius: 8px;
+    }
+    .brand{
+        margin: 30px auto;
+    }
+
+}
+/* Life Widget Ochirsela ozila togirlisla */
+
+
+
+/* Mobile Section  Ochirsela ozila togirlisla*/
+.qrInfo{
+    width: 110px;
+    position: absolute;
+    top: 32px;
+    right: 68px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.qrInfo p{
+    margin-bottom: 10px;
+    font-size: 11px;
+    line-height: 14px;
+    color: #0068E0;
+    font-family: 'm_bold',serif;
+}
+.qrInfo img{
+
+}
+#mobileBanner{
+    width: 100%;
+    background: white;
+    padding: 0 0 25px;
+    height: 370px;
+}
+#mobileBanner .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 100%;
+}
+#mobileBanner .row::after, #mobileBanner .row::before{
+    display: none !important;
+}
+#mobileBanner .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#mobileBanner .mobileImg{
+    width: 465px;
+    height: 370px;
+    position: absolute;
+    margin-left: -100px;
+    z-index: 2;
+}
+#mobileBanner .mobileImg img{
+    width: 100%;
+    height: 100%;
+}
+#mobileBanner .mobileInfo{
+    position: relative;
+    width: 780px;
+    border-radius: 37px;
+    padding: 40px 65px 30px 140px;
+    -webkit-box-shadow: 0px 3px 48px 0px rgba(112, 112, 112, 0.16);
+    -moz-box-shadow: 0px 3px 48px 0px rgba(112, 112, 112, 0.16);
+    box-shadow: 0px 3px 48px 0px rgba(112, 112, 112, 0.16);
+    margin-left: 210px;
+}
+#mobileBanner .mobileInfo h3{
+    margin-top: 0;
+    font-size: 22px;
+    line-height: 31px;
+    color: #0068E0;
+    font-family: 'm_bold',serif;
+    width: 100%;
+}
+#mobileBanner .mobileInfo h3 span{
+    font-family: 'm_r',serif;
+}
+.mobileBtns{
+    margin-top: 22px;
+}
+.mobileBtns a{
+    margin-right: 10px;
+}
+.mobileBtns a:last-child{
+    margin-right: 0;
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    #mobileBanner .mobileImg{
+        width: 400px;
+        height: 300px;
+        margin-left: -130px;
+    }
+    #mobileBanner .mobileInfo{
+        width: 720px;
+        margin-left: 115px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    #mobileBanner .mobileImg{
+        width: 300px;
+        height: 250px;
+        margin-left: -50px;
+    }
+    #mobileBanner .mobileInfo{
+        width: 650px;
+        margin-left: 93px;
+        padding: 20px 50px 30px 140px;
+    }
+    #mobileBanner .mobileInfo h3{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .qrInfo{
+        top: 14px;
+        right: 30px;
+    }
+}
+@media(max-width:767px){
+    #mobileBanner .row{
+        width: 100%;
+    }
+    #mobileBanner{
+        height: auto;
+        border-radius: 20px;
+    }
+    #mobileBanner .mobileImg{
+        display: none;
+    }
+    #mobileBanner .mobileInfo{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 20px 15px 10px;
+        text-align: center;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+    #mobileBanner .mobileInfo h3{
+        font-size: 18px;
+        line-height: 24px;
+        box-shadow: none !important;
+    }
+    .qrInfo{
+        display: none;
+    }
+    .serviceCardHolder{
+        width: 100% !important;
+    }
+}
+@media(max-width: 1199px){
+    .miniBannerBar + .container .col-md-7{
+        width: 100%;
+    }
+    .miniBannerBar + .container .col-md-5{
+        width: 100%;
+    }
+    .row.grid-view.search_grid{
+        margin: 0 auto;
+    }
+}
+/* Mobile Section Ochirsela ozila togirlisla */
+
+
+/* Footer Section Ochirsela osha gap */
+#Uzinfocom{
+    width: 185px;
+}
+
+#egovLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+#egovLink span{
+    color: white !important;
+    font-size:18px;
+    font-family: "m_smbold" ,serif;
+    line-height: 1;
+    width: 145px;
+    text-align: left;
+    margin-left: 10px;
+}
+#egovLink img{
+    width: 65px;
+    margin: 0 !important;
+}
+.footer-part .footer-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Footer Section Ochirsela osha gap*/
+
+
+/* Counter */
+    @media print {
+        /* Hide the cursor when printing */
+        .counter_www {
+            display: none !important;
+        }
+    }
+/* Counter */
+
+
+/* mobile menu */
+.call-center a{
+    color: #828282 !important;
+    display: inline-block !important;
+    height: inherit !important;
+    padding: 0 0 0 0 !important;
+}
+/* mobile menu */
+
+.search-mobile #serviceSearchMobile{
+    height: 50px !important;
+}
+
+.listCardEmpty{
+    transition: 0.2s;
+}
+.listCardEmpty.active{
+    margin-top: 70px;
+    transform: translateY(70px);
+}
